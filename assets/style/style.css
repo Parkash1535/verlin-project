@@ -1,0 +1,478 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+.top_heading {
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 8px 0 9px 82px;
+
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:
+    #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header Start */
+.header {
+  display: flex;
+ 
+  align-items: center;
+  padding: 26px 0 38px 0;
+  position: relative;
+  z-index: 99;
+  background-color: #ffff;
+}
+.menu_btn {
+  display: none;
+}
+  .sidebar{ 
+    display: none;
+    height: 100%;
+    max-width: 375px;
+    width: 100%;
+    position: fixed;
+    top: 126px;
+    left: 0;
+    background-color: #F3F3F3;
+    transition: 1s;
+  } 
+ 
+  .menu_li{
+    padding:35px; 
+    cursor: pointer; 
+  }
+
+  .menu_li:hover{
+   background-color: lightblue;
+  }
+  .sidebar_search{
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    max-width: 200px;
+    margin-left: 35px;
+    align-items: center;
+    
+  }
+.menu_search{
+  border: none;
+  background: transparent;
+  padding: 13px 15px 13px 6px;
+  outline: none;
+  
+}
+.search_icon{
+  width: 16px;
+  height: 16px;
+}
+.navbar {
+  display: flex;
+}
+
+.icons {
+  display: none;
+}
+
+.navbar_link {
+  padding-left: 30px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.header_icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 119px;
+  width: 100%;
+  
+}
+.header_icon{
+  cursor: pointer;
+}
+
+.bag_icon {
+  display: none;
+}
+
+/* Header End */
+
+/* Main Start */
+
+/* banner start */
+
+.banner_poster{
+  position: relative;
+}
+
+.banner_img {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner_text {
+  font-size: 80px;
+  color: white;
+  max-width: 430px;
+  width: 100%;
+
+  position: absolute;
+  top: 450px;
+  left: 295px;
+}
+
+.button {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color: white;
+  padding: 20px 40px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 1s;
+ 
+
+}
+
+.button:hover {
+  border: 2px solid black;
+  background: rgb(255, 255, 255);
+  color: black;
+
+
+
+}
+
+/* Banner End */
+
+/* First bags Start */
+.text {
+  font-size: 28px;
+  line-height: 130%;
+  text-align: center;
+  max-width: 772px;
+  width: 100%;
+  margin: auto;
+  padding: 130px 0 70px 0;
+}
+
+.mid_bags {
+  margin-top: 130px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.bag_items1 {
+  
+  grid-row: span 2;
+  position: relative;
+
+}
+
+.bag_items2 {
+  position: relative;
+}
+
+.bag_items2_text {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 99%;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  flex-direction: column;
+  transition: 1s;
+  opacity: 0;
+}
+
+.bag_items2_text:hover {
+  opacity: 1;
+  
+}
+
+.bag_items2_text p {
+  font-size: 20px;
+}
+
+.bag1_text {
+  position: absolute;
+  top: 423px;
+  color: white;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+}
+.bag1_text{
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  line-height: 140%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* First bags End */
+/* Second bag start */
+.second_bags_imags {
+  margin-top: 70px;
+  flex-wrap: wrap;
+  gap: 10px;
+  
+}
+
+.view_button {
+
+  border: 1px solid rgb(0, 0, 0);
+  background-color: transparent;
+  max-width: 125px;
+  width: 100%;
+  height: 48px;
+  margin: 70px auto 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.view_button:hover {
+  background-color: lightskyblue;
+  color: white;
+  transition: 1s;
+}
+
+/* Second bag end */
+/* Third Image */
+.crossbody_text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Third Image */
+/* five start */
+
+
+
+
+/* Seven Image start */
+.seven_text {
+  margin-top: 37px;
+}
+
+.instagram_icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* Seven image end */
+/* last horizontal line start */
+.last_horizontal_line {
+  border-bottom: 1px solid #D8D8D8;
+  margin: 130px 0 70px 0;
+}
+
+/* last horizontal line end */
+.footer {
+  margin-bottom: 100px;
+}
+
+.footer_box {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.footer_icon {
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.footer_icons {
+  margin-top: 30px;
+}
+
+.footer_text {
+  font-weight: 500;
+
+}
+
+.link_box1 {
+  padding-top: 20px;
+  color:
+    #000000;
+  line-height: 40px;
+  opacity: 70%;
+
+}
+
+.footer_email {
+  border: none;
+  width: 100%;
+  max-width: 338px;
+  padding: 30px 20px 10px 0px;
+  outline: none;
+
+
+}
+
+.subscribe {
+  margin-top: 20px;
+  opacity: 70%;
+}
+
+
+
+.femail {
+  display: flex;
+  border-bottom: 1px solid 
+  #D8D8D8;
+}
+
+.email_btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+/* footer End */
+/* media */
+
+@media (max-width:1200px) {
+
+  .second_bags_imags {
+    justify-content: space-evenly;
+    
+  }
+
+  
+  .banner_text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .bag1_text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    line-height: 140%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mid_button{
+  max-width: 188px;
+  padding: 10px;
+}
+}
+
+@media (max-width:768px) {
+  .banner_text {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .banner_img { 
+    display: block;
+    object-fit: cover;
+    height: 100vh;}
+
+    .bag_items1{
+      grid-column: span 3;
+      justify-self: center;
+    }
+.bag_items2{
+  grid-column: span 3;
+  justify-self: center;
+}
+    
+ 
+}
+
+@media (max-width:600px) {
+  .top_heading{
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+
+  .navbar {
+    display: none;
+  }
+
+  .header_icons {
+    display: none;
+  }
+
+  .menu_btn {
+    display: block;
+  }
+  
+.sidebar{
+  display: block;
+  left:-100%;
+}
+
+  .bag_icon {
+    display: block;
+  }
+  .footer_heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+  }
+  .footer_icons{
+     gap: 10px;
+     margin: 0px;
+  }
+  .link_box{
+  margin-top: 40px;
+  }
+  .footer_logo{
+    max-width: 120px;
+   }
+}
+@media (max-width:320px) {
+  .top_heading{
+    font-size: 10px;
+  }
+
+}
